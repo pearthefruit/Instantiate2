@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class PathInstantiate : MonoBehaviour {
-	public GameObject prefab;
+	public GameObject Cube;
 	// Use this for initialization
 	void Start () {
 
@@ -25,10 +25,10 @@ public class PathInstantiate : MonoBehaviour {
 			else if (random < 0.5f ) {
 				transform.Rotate (0f, -90f, 0f);
 			}
-			Instantiate ( prefab, transform.position, Quaternion.identity );
+			Instantiate ( Cube, transform.position, Quaternion.identity );
 			transform.position += transform.forward * 5f;
 			counter++;
-		}else {
+		}else if (counter > 50){
 			Destroy (gameObject);
 		}
 	}

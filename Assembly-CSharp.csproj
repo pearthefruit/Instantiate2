@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\CubeGod.cs" />
+     <Compile Include="Assets\scripts\GridInstantiate.cs" />
      <Compile Include="Assets\scripts\PathInstantiate.cs" />
      <Compile Include="Assets\scripts\ProcGenDemo.cs" />
      <Compile Include="Assets\scripts\cubeSpin.cs" />
