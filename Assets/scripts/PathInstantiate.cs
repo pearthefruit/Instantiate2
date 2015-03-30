@@ -29,7 +29,7 @@ public class PathInstantiate : MonoBehaviour {
 			transform.position += transform.forward * 5f;
 			counter++;
 		}else if (counter > 50){
-			Destroy (gameObject);
+			Destroy (this.gameObject);
 		}
 	}
 }

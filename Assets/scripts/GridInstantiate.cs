@@ -28,7 +28,7 @@ public class GridInstantiate : MonoBehaviour {
 				}
 
 			}
-			Destroy (gameObject);
+			Destroy (this.gameObject);
 		}
 	}
 }
